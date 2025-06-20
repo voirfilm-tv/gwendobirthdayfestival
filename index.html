@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gwen Birthday Festival</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#lineup">Line-up</a></li>
+      <li><a href="#map">Carte</a></li>
+      <li><a href="#infos">Infos</a></li>
+      <li><a href="#galerie">Galerie</a></li>
+      <li><a href="#participation">Participation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <video autoplay muted loop playsinline>
+      <source src="assets/background.mp4" type="video/mp4">
+    </video>
+    <div class="header-content">
+      <h1>Gwen Birthday Festival</h1>
+      <p>🌴 Bienvenue dans la jungle tropicale du son 🌴</p>
+      <div id="countdown"></div>
+    </div>
+  </header>
+
+  <section id="lineup">
+    <h2>🎤 Line-up</h2>
+    <div class="artist-list">
+      <div class="artist">DJ Tropico — 18h</div>
+      <div class="artist">Sunbeat Collective — 20h</div>
+      <div class="artist">Palma Groove — 22h</div>
+    </div>
+  </section>
+
+  <section id="map">
+    <h2>📍 Carte interactive</h2>
+    <div id="festival-map"></div>
+  </section>
+
+  <section id="infos">
+    <h2>📌 Infos pratiques</h2>
+    <ul>
+      <li><strong>Date :</strong> 20 juillet 2025</li>
+      <li><strong>Lieu :</strong> Parc de l'Ouest, Lyon</li>
+      <li><strong>Camping :</strong> Dès 12h</li>
+      <li><strong>Bars & Food :</strong> Ouverts toute la nuit</li>
+    </ul>
+  </section>
+
+  <section id="galerie">
+    <h2>📸 Galerie</h2>
+    <div class="gallery">
+      <img src="assets/photo1.jpg" alt="Ambiance 1">
+      <img src="assets/photo2.jpg" alt="Ambiance 2">
+      <img src="assets/photo3.jpg" alt="Ambiance 3">
+    </div>
+  </section>
+
+
+  <section id="participation">
+    <h2>🎟️ Participation</h2>
+    <p>Le Gwen Birthday Festival est un événement totalement indépendant, auto-financé par la passion et l'envie de vous faire vivre un moment inoubliable 🌴🎶</p>
+    <p>Pour couvrir les frais de logistique, boissons, décoration et sécurité, nous vous demandons une <strong>participation symbolique de 10€</strong>.</p>
+    <h3>💳 Payer en CB ou Apple Pay</h3>
+    <p><a href="https://revolut.me/gwendav8kq" target="_blank" class="button">👉 Payer 10€ maintenant</a></p>
+    <h3>🏦 Paiement par virement</h3>
+    <p>Vous pouvez aussi effectuer un virement à l’IBAN suivant :</p>
+    <p><code>FR76 2823 3000 0145 2133 5292 107</code></p>
+    <p>Merci de mentionner votre nom en libellé ✨</p>
+  </section>
+
+
+  <section id="contact">
+    <h2>📬 Contact</h2>
+    <p>📩 <a href="mailto:festival@gwenbd.fr">festival@gwenbd.fr</a></p>
+    <p>📸 <a href="https://instagram.com" target="_blank">@gwenfestival</a></p>
+  </section>
+
+  <footer>&copy; 2025 Gwen Birthday Festival</footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+</body>
+</html>
